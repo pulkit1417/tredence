@@ -1,5 +1,4 @@
-import React from 'react';
-import { LayoutDashboard, ShieldCheck, Clock, BarChart2, Link as LinkIcon, Database, GitMerge, Users, Inbox, MessageSquare, Settings, HelpCircle, Layers } from 'lucide-react';
+import { LayoutDashboard, GitMerge, Settings, HelpCircle, Layers } from 'lucide-react';
 import { useWorkflowStore } from '../../store/workflowStore';
 
 const navItemStyle = (isActive: boolean) => ({

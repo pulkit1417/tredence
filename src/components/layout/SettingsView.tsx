@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Settings, Save, Bell, Shield, Database, Trash2 } from 'lucide-react';
+import { useState } from 'react';
+import { Settings, Bell, Database, Trash2 } from 'lucide-react';
 
 import { useWorkflowStore } from '../../store/workflowStore';
 
@@ -46,7 +46,7 @@ const SettingsView = () => {
           <label style={{ fontSize: '14px', fontWeight: '600', color: 'var(--text-secondary)' }}>Theme Interface</label>
           <select 
             value={theme}
-            onChange={(e) => setTheme(e.target.value)}
+            onChange={(e) => setTheme(e.target.value as "light" | "dark" | "system")}
             style={{ padding: '10px', borderRadius: '6px', border: '1px solid #cbd5e1', outline: 'none', background: 'var(--bg-app)', maxWidth: '300px', color: 'var(--text-primary)' }}
           >
             <option value="light">Light Mode Standard</option>

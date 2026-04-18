@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { HelpCircle, MessageCircle, BookOpen, Send, FileQuestion } from 'lucide-react';
 
 const SupportView = () => {

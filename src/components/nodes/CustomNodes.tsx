@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Handle, Position, type NodeProps } from '@xyflow/react';
 import { Play, ClipboardList, CheckCircle, Zap, Flag, GripHorizontal } from 'lucide-react';
 
